@@ -1,0 +1,36 @@
+1 cd -     	change the directory
+
+2 mkdir -    	create the directory
+
+3 rmdir -		remove the directory
+
+4 rm 		remove the file  \\\\\    rm -r dir_name --  non empty directory name
+
+5 mv		rename the director or move to the another directory
+
+6 cp		copy the file and directory
+
+7 touch 		create the file 
+
+8 cat 		list content of the file
+
+9 cat > file_name  	append the text inside the file
+
+10 cat file_1 file_2 > file_3	make the one file of multiple file
+
+11 tail file_name		list the last 10 file 
+
+12 head file_name		list the top 10 file 
+
+13 grep "string name" file_name   search for the string in the file if matches listout on the console
+
+14 du -csh file_name/dir_name -- get the size of the file 
+
+15 wc –l file_name		counts the number of lines
+
+16 gzip file_name		zip the file using this we can reduce the size of the file
+
+17 gunzip file_name		unzip the file
+
+18 nohup ./file_name		 no hang up is a command in Linux systems that keep processes running even after exiting the shell or terminal.
+				output of this command is stored into the nohup.out
